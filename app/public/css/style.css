@@ -1,0 +1,21 @@
+body{
+    background-color:#330000;
+  }
+  #link{
+    color: white;
+  }
+  .container{
+    color:#330000;
+  }
+
+#logo-icon {
+   right: 500px;
+   margin-top: 20px;
+   size: 200px;
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
