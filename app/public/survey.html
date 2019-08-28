@@ -2,17 +2,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Survey - Paddy's Pub Social Network</title>
+	<title>HIMYM MATCHMAKER</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- Link static CSS -->
 	<link rel="stylesheet" type="text/css" href="/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Baloo|Roboto" rel="stylesheet">
 </head>
+
+<style type="text/css">
+    body{
+      background-color:#f09797;
+    }
+
+
+  </style>
+  
 <body>
 	<div class="container content">
-		<h1>Survey</h1>
-		<p>Take a quick survey to find your perfect match! These questions are answered by the numbers 1 through 5. If you really, really disagree with the statement, your answer would be 1. If you find a statement to hit extremely close to home, put in a 5.</p>
+		<h1>How I Met Your Mother Matchmaker</h1>
+		<p>Take a quick survey to find your perfect match from HIMYM!</p> 
+		<p>These questions are answered by the numbers 1 through 5. If strongly DISAGREE with the statement, your answer would be 1. If you strongly AGREE put in a 5.</p>
 		<form>
 			<div class="form-group">
 				<input id="name" type="text" class="form-control" placeholder="Name (Required)">
@@ -98,7 +108,7 @@
 				</select>
 			</div>
 			<div class="form-group">
-				<label for="question8">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label>
+				<label for="question8">You rarely get carried away by fantasies and ideas.</label>
 				<select class="form-control" id="question8">
 					<option value="empty"></option>
 					<option value="1">1</option>
@@ -109,7 +119,7 @@
 				</select>
 			</div>
 			<div class="form-group">
-				<label for="question9">I work out at the gym often.</label>
+				<label for="question9">You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</label>
 				<select class="form-control" id="question9">
 					<option value="empty"></option>
 					<option value="1">1</option>
@@ -132,7 +142,7 @@
 			</div>
 		</form>
 		<div class="text-center">
-			<button id="submitBtn" type="submit" class="btn btn-success btn-lg">Submit</button>
+			<button id="submitBtn" type="submit" class="btn btn-danger btn-lg">Submit</button>
 		</div>
 		
 		<!-- Modal after survey completion -->
